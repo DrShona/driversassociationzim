@@ -1,0 +1,133 @@
+@import "//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css";
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  font-family: "Open Sans";
+  background:#eee;
+  margin-bottom:60px;
+}
+
+.container {
+  width:100%
+}
+
+.jumbotron > .container {
+  width:80%
+}
+
+
+.photo {
+  display: block;
+  background-image: url('https://i.imgur.com/odDpdY3.jpg');
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+}
+
+.jumbotron {
+  background: url('http://www.hdwallpaperfreedownload.com/wp-content/gallery/greece/greece-wallpaper-hd-pictures-35.jpg');
+background-size: cover;
+}
+
+.fixed {
+width: 100%;
+left: 0;
+position: fixed;
+top: 0;
+z-index: 99;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+  font-weight:600;
+}
+
+.socialbtn {
+  margin: 0 2px 0 2px;
+  width:2em;
+  height:2em;
+  display: inline-block;
+  font-size: 1.2em;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  border:none;
+  
+}
+
+.sgithub {   
+  color:#ffffff;
+  background:#666;
+}
+
+.sfacebook {   
+  color:#ffffff;
+  background:#305c99;
+}
+
+.stwitter {   
+  color:#ffffff;
+  background:#4099FF;
+}
+
+.slinkedin {   
+  color:#ffffff;
+  background:#0e76a8;
+}
+
+.sgithub:hover, .sfacebook:hover, .stwitter:hover, .slinkedin:hover {
+  opacity:0.8;
+  color:#ffffff;
+}
+
+.article {
+  width:75%;
+  margin: 0 auto 15px;
+  padding: 5px 20px;
+  background:white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+}
+
+@media (max-width: 768px) {
+  .article {width:100%;}
+}
+
+.header {
+  font-weight:600;
+}
+.date {
+  font-size:12px;
+  font-weight:400;
+  color:#999999;
+  margin-bottom:10px;
+}
+.badge {
+  background:#3498db;
+  font-weight:400;
+}
+
+.more {
+  text-align: right;
+}
+
+.footer{
+  background: url('http://www.hdwallpaperfreedownload.com/wp-content/gallery/greece/greece-wallpaper-hd-pictures-35.jpg');
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+
+.footer > p {
+  text-align:center;
+  margin-top:20px;
+  color:#3498db;
+}

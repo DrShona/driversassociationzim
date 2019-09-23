@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="Style.css" />
+ 
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Germania+One|Lobster');
+    </style>
+</head>
+ 
+<body>
+    <section>
+        <nav>
+            <a class="menu">Home</a>
+            <div class="dropdown">
+                <a class="menu">Web Templete</a>
+                <div class="dropdown-content">
+                    <a class="menuitem">PSD Templete</a>
+                    <a class="menuitem">HTML5 Templete</a>
+                    <a class="menuitem">WordPress Templete</a>
+                    <a class="menuitem">Wix Templete</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="menu">Pricing</a>
+                <div class="dropdown-content">
+                    <a class="menuitem">1$ USD</a>
+                    <a class="menuitem">2$ USD</a>
+                    <a class="menuitem">3$ USD</a>
+                    <a class="menuitem">4$ USD</a>
+                </div>
+            </div>
+            <a class="menu">Blog</a>
+            <a class="menu">Contact Us</a>
+        </nav>
+    </section>
+</body>
+ 
+</html>
